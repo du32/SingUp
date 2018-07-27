@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="200dp">
+
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="50dp"
+    android:background="#535c5b"
+    android:src="@drawable/email"
+    />
+
+
+    <EditText
+
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:background="#636562"
+        android:layout_weight="1"
+        android:text=" Email Address"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="#535c5b"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pass" />
+
+        <EditText
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Password"
+            android:background="#636562"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+        
+        
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"/>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="#535c5b"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pass1" />
+        <EditText
+
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#636562"
+            android:text="Again "
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#636562"
+        android:text="Mobile Number"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#636562"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Already have An Account ? Sing In"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:layout_marginTop="150dp"/>
+
+
+
+</LinearLayout>
